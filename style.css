@@ -645,14 +645,12 @@
         }
         #mobilefooterone p{
             color: #a020f0;
+            font-size: 14px;
+            padding-left: 35px;
         }
         #mobilefooterone a{
             color: white;
             text-decoration: none;
-        }
-        .mobilefooter p {
-            font-size: 14px;
-            padding-left: 25px;
         }
         #mobilefootertwo{
             height: 50px;
