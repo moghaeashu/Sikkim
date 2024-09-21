@@ -1,0 +1,692 @@
+   /* This is For Desktops */
+   body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        .header .logo {
+            width: 290px;
+            height: 50px;
+            color: #6a0dad;
+            display: flex;
+            align-items: center;
+        }
+        .header .logo h1{
+            font-size: 35px;
+        }
+        .header nav{
+            height: 35px;
+            width: 150px;
+            border: #ccc solid 1px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50px;
+        }
+        
+        .header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 -10px;
+            padding: 10px 20px;
+            border-radius: 20px;
+            background-color: #333;
+            opacity: 50%;
+            background-color: transparent;
+            font-weight: bold;
+        }
+        nav a:hover{
+            opacity: 100%;
+            background-color: #555;
+        }
+        nav a:active{
+            opacity: 100%;
+            background-color: #555;
+        }
+    
+        .header .active:hover {
+            background-color: #555;
+            opacity: 100%;
+        }
+        .header .join-btn {
+            background-color: #6a0dad;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background-color: #333;
+            border-radius: 20px;
+            text-align: left;
+            position: relative;
+            display: flex;
+            align-items: center;
+            height: 200px;
+            width: 100%;
+        }
+        .hero h1 {
+            font-size: 36px;
+            color: #fff;
+            padding-left: 25px;
+        }
+        .hero h1 span {
+            color: #a020f0;
+        }
+        .hero .coins {
+            right: 20px;
+        }
+        #maintitle{
+            height: 126px;
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .hero .coins img {
+            width: 190px;
+            height: 200px;
+            margin-left: 70px;
+        }
+        #coinone{
+            position: absolute;
+            height: 40px;
+            width: 40px;
+            left: 300px;
+            bottom: 30px;
+        }
+        #cointwo{
+            position: absolute;
+            height: 40px;
+            width: 40px;
+            right: 30px;
+            bottom: 20px;
+        }
+        #cointhree{
+            position: absolute;
+            height: 40px;
+            width: 40px;
+            right: 50px;
+            top: 50px;
+        }
+        #coinfour{
+            position: absolute;
+            height: 40px;
+            width: 40px;
+            right: 235px;
+            top: 50px;
+        }
+        #coinfive{
+            position: absolute;
+            height: 40px;
+            width: 40px;
+        }
+        .join-community {
+            background-color: black;
+            margin: 20px 0;
+            height: 70px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            border-radius: 50px;
+        }
+        #join-communityhalf{
+            color: #a020f0;
+        }
+        #join-communityone{
+            height: 70px;
+            width: 60%;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            margin-right: 115px;
+            padding-left: 25px;
+        }
+        #join-communitytwo{
+            height: 70px;
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .join-community a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            background-color: #a020f0;
+            border-radius: 50px;
+            padding: 10px 15px;
+            font-weight: bold;
+        }
+        .partners {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .partners img{
+            width: 260px;
+        }
+        .partners h2 {
+            font-size: 30px;
+            color: silver;
+            margin: 0;
+        }
+        .partners .logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-top: 20px;
+            border: white solid 1px;
+            overflow: hidden;
+        }
+        .partners .logos img {
+            width: 130px;
+            height: 50px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        .section {
+            background-color: #333;
+            padding: 40px;
+            border-radius: 20px;
+            margin: 20px 0;
+        }
+        #sectionmain{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+        #sectionmain img{
+            width: 290px;
+        }
+        .section h2 {
+            font-size: 25px;
+            color: silver;
+            text-align: center;
+            margin: 0;
+        }
+        .section p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section ul li {
+            margin: 10px 0;
+        }
+        .section ul li::before {
+            content: '•';
+            color: #a020f0;
+            margin-right: 10px;
+        }
+        .terms {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+        .terms .term {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 20px;
+            flex: 1;
+            min-width: 200px;
+        }
+        .terms .term h3 {
+            font-size: 18px;
+            color: #a020f0;
+            margin-bottom: 10px;
+        }
+        .terms .term p {
+            font-size: 14px;
+            line-height: 1.4;
+        }
+        .footer {
+            height: 50px;
+            width: 100%;
+            background-color: black;
+            border-radius: 50px;
+            border: 1px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #footerone{
+            height: 50px;
+            width: 50%;
+            margin-right: 530px;
+        }
+        .footer p {
+            font-size: 14px;
+            padding-left: 25px;
+            color: #a020f0;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+        #footertwo{
+            height: 50px;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #lastcontact{
+            padding: 10px 30px;
+            background-color: #a020f0;
+            border-radius: 50px;
+            color: white;
+            font-weight: bold;
+        }
+
+        @media screen and (min-width: 1200px) {
+            .section p {
+              font-size: 25px;
+            }
+            #android{
+                display: none;
+            }
+          }
+    
+          /* This is For Desktops */
+
+          /* This is For Mobiles */
+          .mobilecontainer {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .mobileheader {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        .mobileheader .mobilelogo {
+            width: 290px;
+            height: 50px;
+            color: #6a0dad;
+            display: flex;
+            align-items: center;
+        }
+        .mobileheader .mobilelogo h1{
+            font-size: 35px;
+        }
+        .mobileheader nav{
+            height: 35px;
+            width: 150px;
+            border: #ccc solid 1px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50px;
+        }
+        
+        .mobileheader nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 -10px;
+            padding: 10px 20px;
+            border-radius: 20px;
+            background-color: #333;
+            opacity: 50%;
+            background-color: transparent;
+            font-weight: bold;
+        }
+        nav a:hover{
+            opacity: 100%;
+            background-color: #555;
+        }
+        nav a:active{
+            opacity: 100%;
+            background-color: #555;
+        }
+    
+        .mobileheader .mobileactive:hover {
+            background-color: #555;
+            opacity: 100%;
+        }
+        .mobileheader .mobilejoin-btn {
+            background-color: #6a0dad;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .mobilehero {
+            background-color: #333;
+            border-radius: 20px;
+            text-align: left;
+            position: relative;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            height: 1100px;
+            width: 100%;
+        }
+        .mobilehero h1 {
+            font-size: 60px;
+            color: #fff;
+            padding-left: 50px;
+        }
+        .mobilehero h1 span {
+            color: #a020f0;
+        }
+        .mobilehero .mobilecoins {
+            right: 20px;
+        }
+        #mobilemaintitle{
+            height: 126px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 143px;
+        }
+        .mobilehero .mobilecoins img {
+            width: 720px;
+            height: 730px;
+            bottom: 0px;
+            margin-top: 100px;
+        }
+        #mobilecoinone{
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            left: 50px;
+            bottom: 350px;
+        }
+        #mobilecointwo{
+            position: absolute;
+            height: 85px;
+            width: 85px;
+            right: 80px;
+            bottom: 600px;
+        }
+        #mobilecointhree{
+            position: absolute;
+            height: 50px;
+            width: 50px;
+            right: 50px;
+            top: 50px;
+        }
+        #mobilecoinfour{
+            position: absolute;
+            height: 60px;
+            width: 60px;
+            right: 235px;
+            top: 30px;
+        }
+        #mobilecoinfive{
+            position: absolute;
+            height: 80px;
+            width: 80px;
+            bottom: 280px;
+            right: 30px;
+        }
+        #mobilecoinsix{
+            height: 70px;
+            width: 70px;
+            position: absolute;
+            right: 430px;
+
+        }
+        .mobilejoin-community {
+            background-color: black;
+            margin: 20px 0;
+            height: 70px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            border-radius: 50px;
+        }
+        #mobilejoin-communityhalf{
+            color: #a020f0;
+        }
+        #mobilejoin-communityone{
+            height: 70px;
+            width: 60%;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            margin-right: 115px;
+            padding-left: 25px;
+        }
+        #mobilejoin-communitytwo{
+            height: 70px;
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .mobilejoin-community a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            background-color: #a020f0;
+            border-radius: 50px;
+            padding: 10px 15px;
+            font-weight: bold;
+        }
+        .mobilepartners {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .mobilepartners img{
+            width: 260px;
+        }
+        .mobilepartners h2 {
+            font-size: 30px;
+            color: silver;
+            margin: 0;
+        }
+        .mobilepartners .mobilelogos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-top: 20px;
+            border: white solid 1px;
+            overflow: hidden;
+        }
+        .mobilepartners .mobilelogos img {
+            width: 130px;
+            height: 50px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        .mobilesection {
+            background-color: #333;
+            padding: 40px;
+            border-radius: 20px;
+            margin: 20px 0;
+        }
+        #mobilesectionmain{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+        #mobilesectionmain img{
+            width: 290px;
+        }
+        .mobilesection h2 {
+            font-size: 25px;
+            color: silver;
+            text-align: center;
+            margin: 0;
+        }
+        .mobilesection p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .mobilesection ul {
+            list-style: none;
+            padding: 0;
+        }
+        .mobilesection ul li {
+            margin: 10px 0;
+        }
+        .mobilesection ul li::before {
+            content: '•';
+            color: #a020f0;
+            margin-right: 10px;
+        }
+
+        .mobilesectionone {
+            background-color: #333;
+            padding: 40px;
+            border-radius: 20px;
+            margin: 20px 0;
+        }
+        #mobilesectiononemain{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+        #mobilesectiononemain img{
+            width: 290px;
+        }
+        .mobilesectionone h2 {
+            font-size: 25px;
+            color: silver;
+            text-align: center;
+            margin: 0;
+        }
+        .mobilesectionone p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .mobilesectionone ul {
+            list-style: none;
+            padding: 0;
+        }
+        .mobilesectionone ul li {
+            margin: 10px 0;
+        }
+        .mobilesectionone ul li::before {
+            content: '•';
+            color: #a020f0;
+            margin-right: 10px;
+        }
+
+        .mobileterms {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+        .mobileterms .mobileterm {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 20px;
+            text-align: center;
+            flex: 1;
+            min-width: 400px;
+            min-height: 400px;
+        }
+        .mobileterms .mobileterm h3 {
+            font-size: 50px;
+            color: #a020f0;
+            margin-bottom: 10px;
+        }
+        .mobileterms .mobileterm p {
+            font-size: 16px;
+            line-height: 1.4;
+        }
+        .mobilefooter {
+            height: 50px;
+            width: 100%;
+            background-color: black;
+            border-radius: 50px;
+            border: 1px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        #mobilefooterone{
+            height: 50px;
+            width: 50%;
+            margin-right: 530px;
+        }
+        #mobilefooterone p{
+            color: #a020f0;
+        }
+        #mobilefooterone a{
+            color: white;
+            text-decoration: none;
+        }
+        .mobilefooter p {
+            font-size: 14px;
+            padding-left: 25px;
+        }
+        #mobilefootertwo{
+            height: 50px;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #mobilelastcontact{
+            padding: 10px 30px;
+            background-color: #a020f0;
+            border-radius: 50px;
+            color: white;
+            font-weight: bold;
+        }
+          /* For medium screens (tablets, smaller desktops) */
+          @media screen and (min-width: 768px) and (max-width: 1199px) {
+            .mobilesection p {
+              font-size: 23px;
+            }
+            #desktop{
+                display: none;
+            }
+          }
+      
+          /* For mobile devices */
+          @media screen and (max-width: 767px) {
+            .mobilesection p {
+              font-size: 19px;
+            }
+            #desktop{
+                display: none;
+            }
+          }
+          /* This is For Mobiles */
+          
